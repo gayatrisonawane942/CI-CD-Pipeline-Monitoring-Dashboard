@@ -41,13 +41,13 @@ OR use Live Server in VS Code
 
 ## 🌐 Live Demo
 
-(After enabling GitHub Pages, add your link here)
+https://gayatrisonawane942.github.io/CI-CD-Pipeline-Monitoring-Dashboard
 
 ---
 
 ## 📸 Screenshots
 
-(Add screenshots here for better presentation)
+dashboard.png
 
 ---
 
