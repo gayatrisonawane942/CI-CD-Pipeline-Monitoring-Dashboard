@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> DevOps Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🚀 CI/CD Pipeline Monitoring Dashboard</h1>
+</header>
+
+<div class="controls">
+    <select id="pipeline">
+        <option>Frontend</option>
+        <option>Backend</option>
+        <option>Deployment</option>
+    </select>
+
+    <input type="text" id="search" placeholder="Search pipeline">
+
+    <select id="filter">
+        <option value="All">All</option>
+        <option value="Success">Success</option>
+        <option value="Failure">Failure</option>
+        <option value="Running">Running</option>
+    </select>
+
+    <button onclick="toggleAuto()">Auto Refresh</button>
+</div>
+
+<div class="cards">
+    <div class="card success">Success <span id="success"></span></div>
+    <div class="card failure">Failure <span id="failure"></span></div>
+    <div class="card running">Running <span id="running"></span></div>
+</div>
+
+<div class="charts">
+    <canvas id="doughnut"></canvas>
+    <canvas id="line"></canvas>
+</div>
+
+<div class="progress-bar">
+    <div id="progress"></div>
+</div>
+
+<h2>📜 Logs</h2>
+<pre id="logs"></pre>
+
+<h2>📊 Deployment History</h2>
+<table>
+<thead>
+<tr><th>ID</th><th>Status</th><th>Pipeline</th><th>Time</th></tr>
+</thead>
+<tbody id="table"></tbody>
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

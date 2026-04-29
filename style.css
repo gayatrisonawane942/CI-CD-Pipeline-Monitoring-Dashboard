@@ -1,0 +1,70 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
+}
+
+header { text-align: center; }
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input, select, button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.success { background: green; }
+.failure { background: red; }
+.running { background: orange; }
+
+.charts {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+canvas {
+    width: 400px !important;
+    height: 300px !important;
+}
+
+.progress-bar {
+    background: #1e293b;
+    height: 10px;
+}
+
+#progress {
+    height: 10px;
+    background: cyan;
+    width: 0%;
+}
+
+pre {
+    background: black;
+    padding: 10px;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    background: white;
+    color: black;
+    margin-top: 10px;
+}
