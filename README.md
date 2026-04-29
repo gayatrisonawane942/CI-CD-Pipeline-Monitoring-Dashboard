@@ -47,7 +47,8 @@ https://gayatrisonawane942.github.io/CI-CD-Pipeline-Monitoring-Dashboard
 
 ## 📸 Screenshots
 
-dashboard.png
+### 🔹 Dashboard Overview
+![Dashboard](dashboard.png)
 
 ---
 
